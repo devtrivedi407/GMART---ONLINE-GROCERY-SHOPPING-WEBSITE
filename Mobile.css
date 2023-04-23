@@ -1,0 +1,66 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	/*background-color: blue;*/
+}
+
+/*Home Section*/
+.home{
+	height: 460px;
+	padding: 3px 260px;
+}
+.home p{
+	font-size: 14px;
+}
+.navbar::before{
+	height: 480px;
+}
+/*Utility Classes*/
+.h-primary{
+	font-size: 45px;
+}
+.h-secondary{
+	padding: 0px;
+}
+
+/*Navigation Bar Section*/
+.navbar{
+	flex-direction: column;
+}
+
+/*Button*/
+.buttons{
+	display: inline-flex;
+	margin-top: -30px;
+}
+
+
+/*Service Section*/
+#services{
+	flex-direction: column;
+}
+#services .box{
+	overflow: scroll;
+	margin: 25px 120px;
+}
+#services .box img{
+	height: 335px;
+	width: 734px;
+}
+#services .box p{
+	font-size: 10px;
+}
+
+/*Companies Section*/
+#company-content{
+	overflow: hidden;
+}
+#company-content img{
+    padding: 5px;
+}
+
+/*Contact Us Section*/
+#submit{
+	margin-left: 460px;
+}
+
